@@ -1,1 +1,3 @@
 Random things I write.
+## [Beowolf](https://github.com/ImanHosseini/MiscWritings/blob/main/Random/Beowolf.pdf)
+This is _old_, around 2018. I made a server and client in Go that I also managed to compile (the client) for Arm and run on my phone and distribute a large matrix multiplication over my PC, my laptop, my raspberry pi and my phone. The last part was rushed and I didn't plot trials, but basically I did _see_ in _action_ that the best break down of tasks is to distribute them proportional to processor speed, with _first order_ corrections being added if you also considered that _network speed_ is not free. 
